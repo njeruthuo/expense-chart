@@ -20,9 +20,9 @@ const App = () => {
         </div>
 
         <div id="chart" className="bg-white rounded-lg w-full h-96 p-8">
-          <h1 className="text-darkBrown font-bold text-xl">
+          <h2 className="text-darkBrown font-bold text-xl">
             Spending - Last 7 days
-          </h1>
+          </h2>
 
           <div className="mt-4">
             <BarGraph />
@@ -33,7 +33,7 @@ const App = () => {
           <div className="text-darkBrown flex justify-between place-items-center py-6">
             <div>
               <p className="text-xs">Total this month</p>
-              <h2 className="font-bold text-3xl">$478.33</h2>
+              <h1 className="font-bold text-3xl">$478.33</h1>
             </div>
 
             <div className="text-right">
